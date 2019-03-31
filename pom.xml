@@ -8,6 +8,10 @@
   <name>vijaydeploy</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  <plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.6.0</version>
+  </plugin>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -15,8 +19,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.6.0</version>
-  </plugin>
+  
 </project>
